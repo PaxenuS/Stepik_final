@@ -13,3 +13,4 @@ class ProductPageLocator():
     ADD_PRODUCT_NAME = (By.CSS_SELECTOR, "div.alert:nth-child(1) > div:nth-child(2) > strong:nth-child(1)")
     PRICE = (By.CSS_SELECTOR, "p.price_color:nth-child(2)")
     ADD_PRICE = (By.CSS_SELECTOR, "div.alert:nth-child(3) > div:nth-child(2) > p:nth-child(1) > strong:nth-child(1)")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, "div.alert:nth-child(1) > div:nth-child(2)")
